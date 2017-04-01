@@ -11,8 +11,8 @@
         "assets",
         "favicon.ico"
       ],
-      "index": "login.html",
-      "main": "./login-app/main.ts",
+      "index": "index.html",
+      "main": "main.ts",
       "polyfills": "polyfills.ts",
       "test": "test.ts",
       "tsconfig": "tsconfig.app.json",
