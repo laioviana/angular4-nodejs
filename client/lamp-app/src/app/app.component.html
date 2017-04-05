@@ -1,4 +1,4 @@
-<ng-container *ngIf="!userService.logged">
+<ng-container *ngIf="!userService.loggedUser">
     <div class="hold-transition login-page">
         <div class="wrapper">
              <router-outlet></router-outlet>
@@ -6,7 +6,7 @@
     </div>
 </ng-container>
 
-<ng-container *ngIf="userService.logged">
+<ng-container *ngIf="userService.loggedUser">
     <div class="hold-transition skin-purple fixed">
         <div class="wrapper">
             <app-menu></app-menu>

@@ -1,6 +1,15 @@
 <aside id="aside" class="main-sidebar">
     <section class="sidebar">
         <ul class="sidebar-menu">
+            <li  class="treeview" [class.active]="formularios.hidden" (click)="formularios.hidden = !formularios.hidden">
+                <a href="javascript:void(0)">
+                    <span>Formulários</span>
+                </a>
+                <ul #formularios class="treeview-menu"[style]="formularios.hidden ? 'display:none' : 'display:block'" [class.menu-open]="formularios.hidden" [hidden]="!formularios.hidden">
+                    <li><a href="javascript:void(0)"><span>FAC</span></a></li>
+                    
+                </ul>
+            </li>
 
         </ul>
     </section>

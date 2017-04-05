@@ -1,3 +1,4 @@
+import { LocalStorageService } from './service/local-storage.service';
 import { UserService, UserServiceConfig } from './service/user.service';
 /* tslint:disable:member-ordering no-unused-variable */
 import {
@@ -9,7 +10,7 @@ import { CommonModule }      from '@angular/common';
 
 @NgModule({
   imports:      [ CommonModule ],
-  providers:    [ UserService ]
+  providers:    [ UserService, LocalStorageService ]
 })
 export class CoreModule {
 

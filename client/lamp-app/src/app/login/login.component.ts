@@ -21,7 +21,7 @@ export class LoginComponent implements OnInit {
   validarLogin(){
     if(this.username && this.password){
       if(this.username == 'timoteojorge@gmail.com' && this.password == '123456'){
-        this.userService.logged = true;
+        this.userService.loggedUser = "TIMOTEO";
         this.router.navigate(['home']);
       }else{
         console.log('Login Inválido');
