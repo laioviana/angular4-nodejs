@@ -14,6 +14,7 @@ import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
 import { AppFooterComponent } from "app/layout/app-footer/app-footer.component";
+import { FacModule } from './fac/fac.module';
 
 @NgModule({
   declarations: [
@@ -29,6 +30,7 @@ import { AppFooterComponent } from "app/layout/app-footer/app-footer.component";
     HttpModule,
     AppRoutingModule,
     HomeModule,
+    FacModule,
     CoreModule.forRoot({userName: 'Timoteo Jorge'}),
   ],
   bootstrap: [AppComponent]
