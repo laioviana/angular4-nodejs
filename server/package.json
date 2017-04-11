@@ -1,0 +1,26 @@
+{
+  "name": "lamp-rest",
+  "version": "1.0.0",
+  "description": "An API to lamp app client",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server"
+  },
+  "keywords": [
+    "gateway",
+    "pagamentos",
+    "api"
+  ],
+  "author": "timoteo",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "consign": "^0.1.2",
+    "express": "^4.15.2",
+    "express-validator": "^3.1.2",
+    "jsonwebtoken": "^7.3.0",
+    "mongoose": "^4.9.3",
+    "mysql": "^2.13.0"
+  }
+}
