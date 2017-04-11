@@ -1,7 +1,7 @@
-# Passos para rodar a aplicação
+# Stes to run the app
 
-- Clonar o projeto através do comando `git clone https://timoteojorge@gitlab.com/timoteojorge/software-construtora.git` 
-- Instalar o **angular-cli** através do comando `npm install -g angular-cli`
-- Navegar até a pasta `/client/lamp-app/` e executar o comando `npm install`
-- Executar o comando `ng serve`
-- Testar a aplicação em `http://localhost:4200`
+- Clone project `git clone https://timoteojorge@gitlab.com/timoteojorge/angular4-nodejs.git` 
+- Install **angular-cli** --> `npm install -g angular-cli`
+- Navigate to `/client/lamp-app/` e executar o comando `npm install`
+- Run `ng serve`
+- Test app `http://localhost:4200`
