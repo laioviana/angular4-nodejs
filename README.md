@@ -1,4 +1,4 @@
-# Stes to run the app
+# Steps to run the app
 
 - Clone project `git clone https://timoteojorge@gitlab.com/timoteojorge/angular4-nodejs.git` 
 - Install **angular-cli** --> `npm install -g angular-cli`
